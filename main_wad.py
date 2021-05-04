@@ -326,7 +326,7 @@ def demo4(image_paths, output_dir, cuda):
     classes = get_classtable()
 
     # Model
-    model = torch.load('best.pth')    # load model
+    model = torch.load('best_all.pth')    # load model
     model.to(device)
     model.eval()
 
