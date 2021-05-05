@@ -168,7 +168,7 @@ def demo2(image_paths, output_dir, cuda):
                 filename=osp.join(
                     output_dir,
                     "{}-{}-gradcam-{}-{}.png".format(
-                        j, "resnet152", target_layer, classes[target_class]
+                        j, "best_all", target_layer, classes[target_class]
                     ),
                 ),
                 gcam=regions[j, 0],
