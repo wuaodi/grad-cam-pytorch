@@ -195,7 +195,7 @@ def demo4(image_paths, output_dir, cuda):
     model.eval()
 
     # The layers you want to see
-    target_layers = ["backbone.conv1","backbone.layer1.0.conv1","backbone.layer2.0.conv1","backbone.layer4.2.conv3"]
+    target_layers = ["layer1", "layer2", "layer3", "layer4"]
     target_class = 4    # "lake"
 
     # Images
